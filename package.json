@@ -1,5 +1,5 @@
 {
-  "name": "dappscout-iframe",
+  "name": "chewydapp-iframe",
   "description": "A set of context and hook for an iframe that allows interaction with dApps using a connected wallet.",
   "version": "0.2.2",
   "author": "Maksim Alekseenko (https://github.com/maxaleks)",
@@ -7,13 +7,13 @@
     "Apoorv Lathey <apoorv.xyz>"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/blockscout/iframe#readme",
+  "homepage": "https://github.com/chewyswap/iframe-dappchewy#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blockscout/iframe"
+    "url": "git+https://github.com/chewyswap/iframe-dappchewy"
   },
   "bugs": {
-    "url": "https://github.com/blockscout/iframe/issues"
+    "url": "https://github.com/chewyswap/iframe-dappchewy/issues"
   },
   "type": "module",
   "scripts": {
@@ -25,9 +25,9 @@
     "postpack": "clean-package restore"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "viem": "^1.20.3"
+    "react": "19.0.0-rc-69d4b800-20241021",
+    "react-dom": "19.0.0-rc-69d4b800-20241021",
+    "viem": "~2.21.32"
   },
   "devDependencies": {
     "@types/node": "^20.9.0",
@@ -61,5 +61,6 @@
       "require": "./dist/dappscout-iframe.umd.js",
       "types": "./dist/index.d.ts"
     }
-  }
+  },
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
 }
